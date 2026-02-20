@@ -1,0 +1,118 @@
+.callout {
+    /* Target */
+    &[data-callout="target"] {
+        --callout-color: 239, 118, 122;
+        --callout-icon: lucide-target;
+    }
+
+    /* Idea */
+    &[data-callout="idea"] {
+        --callout-color: 249, 220, 92;
+        --callout-icon: lucide-lightbulb;
+    }
+
+    /* Link */
+    &[data-callout="link"] {
+        --callout-color: 16, 121, 251;
+        --callout-icon: lucide-link;
+    }
+
+    /* Construction */
+    &[data-callout="construction"] {
+        --callout-color: 255, 111, 89;
+        --callout-icon: lucide-construction;
+    }
+
+    /* Source */
+    &[data-callout="source"] {
+        --callout-color: 170, 170, 170;
+        --callout-icon: lucide-globe;
+    }
+
+    /* Exercise */
+    &[data-callout="exercise"] {
+        --callout-color: 252, 170, 103;
+        --callout-icon: notepad-text;
+    }
+
+    /* Theorem */
+    &[data-callout="theorem"] {
+        --callout-color: 158, 158, 158;
+        --callout-icon: scroll;
+    }
+
+    /* Sparkles */
+    &[data-callout="sparkles"] {
+        --callout-color: 220, 243, 166;
+        --callout-icon: sparkles;
+    }
+
+    /* Telescope */
+    &[data-callout="telescope"] {
+        --callout-color: 184, 218, 241;
+        --callout-icon: telescope;
+    }
+
+    /* Code */
+    &[data-callout="code"] {
+        --callout-color: 90, 90, 90;
+        --callout-icon: code;
+
+        & .callout-icon .svg-icon, .callout-fold {
+            color: #B4B4B4;
+        }
+
+        & .callout-title-inner {
+            color: #DB5792;
+            font-family: var(--font-monospace);
+            padding-left: 3px;
+        }
+    }
+
+    /* Terminal, cmd */
+    &[data-callout="terminal"], &[data-callout="cmd"] {
+        --callout-color: 90, 90, 90;
+        --callout-icon: terminal;
+
+        & .callout-icon .svg-icon, .callout-fold {
+            color: #B4B4B4;
+        }
+
+        & .callout-title-inner {
+            color: #FF6978;
+            font-family: var(--font-monospace);
+            padding-left: 3px;
+        }
+    }
+
+    /* Timer, Runtime */
+    &[data-callout="timer"], &[data-callout="runtime"] {
+        --callout-color: 220, 243, 166;
+        --callout-icon: timer;
+    }
+
+    /* Memory */
+    &[data-callout="memory"] {
+        --callout-color: 184, 218, 241;
+        --callout-icon: memory-stick;
+    }
+
+    /* Person */
+    &[data-callout="person"] {
+        --callout-color: 147, 220, 234;
+        --callout-icon: user-round;
+    }
+
+    /* Component */
+    &[data-callout="component"] {
+        --callout-color: 111, 115, 210;
+        --callout-icon: component;
+    }
+
+    /* Asterisk, btw */
+    &[data-callout="asterisk"], &[data-callout="btw"] {
+        --callout-color: 158, 158, 158;
+        --callout-icon: asterisk;
+    }
+
+}

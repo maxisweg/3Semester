@@ -1,0 +1,14 @@
+# Local Obsidian files
+**/.obsidian/app.json
+**/.obsidian/bookmarks.json
+**/.obsidian/canvas.json
+**/.obsidian/graph.json
+**/.obsidian/hotkeys.json
+**/.obsidian/page-preview.json
+**/.obsidian/templates.json
+**/.obsidian/workspace.json
+
+# Non-relevant directories
+**/Templates/
+**/Projekt/
+**/Praktika/

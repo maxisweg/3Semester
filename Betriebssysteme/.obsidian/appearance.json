@@ -1,0 +1,15 @@
+{
+  "enabledCssSnippets": [
+    "custom_callouts",
+    "hide_block_id",
+    "callout_alignment_fix"
+  ],
+  "cssTheme": "Border",
+  "accentColor": "#8995e1",
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "monospaceFontFamily": "Google Sans Code,JetBrains Mono",
+  "textFontFamily": "Atkinson Hyperlegible Next",
+  "interfaceFontFamily": "Atkinson Hyperlegible Next",
+  "baseFontSize": 16
+}
